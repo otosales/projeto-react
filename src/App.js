@@ -1,14 +1,29 @@
 import './App.css';
+import Header from "./components/Header"
+import ListaProdutos from './components/ListaProdutos';
 
 import NavBar from './components/NavBar';
-import Header from './components/Header';
+
+
 
 function App() {
+
+  
+
   return (
     <div className="App">
-     <NavBar />
+     <NavBar 
+     tituloHeader = "Esse é um titulo"
+     />
+    <Header />     
 
     <h2>Conteúdo</h2>
+
+    
+    <ListaProdutos>
+      <p>Feito por Oto</p>
+
+    </ListaProdutos>
 
     </div>
   );

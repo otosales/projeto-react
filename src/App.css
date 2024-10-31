@@ -40,3 +40,9 @@
 .Header {
   color: red;
 }
+
+.lista-produtos{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
